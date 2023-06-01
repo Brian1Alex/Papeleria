@@ -11,7 +11,7 @@
 
 <h1 Align="center">AGREGAR ARTICULOS ESCOLARES</h1>
 <br>
-<form class="" action="<?php echo site_url(); ?>/articulos/guardarEsc" method="post">
+<form class="" action="<?php echo site_url(); ?>/Articulos/guardarEsc" method="post">
     <div class="row">
         <div class="col-md-4">
             <label for="">Nombre:</label>

@@ -18,10 +18,6 @@
         border-radius: 22px;
         color: white;
     }
-
-    
-
-    
 </style>
 
 <div class="container">

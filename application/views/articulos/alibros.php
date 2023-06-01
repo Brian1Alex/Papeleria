@@ -11,28 +11,28 @@
 
 <h1 Align="center">AGREGAR LIBROS</h1>
 <br>
-<form class="" action="OJO" method="post">
+<form class="" action="<?php echo site_url(); ?>/Articulos/guardarLib" method="post">
     <div class="row">
         <div class="col-md-4">
             <label for="">Nombre:</label>
             <br>
-            <input type="text" placeholder="Ingrese el nombre del producto" class="form-control" name="primer_apellido_ins" value="">
+            <input type="text" placeholder="Ingrese el nombre del producto" class="form-control" name="nombre_lib" value="">
         </div>
         <div class="col-md-4">
             <label for="">Precio:</label>
             <br>
-            <input type="number" placeholder="Ingrese precio del producto" class="form-control" name="segundo_apellido_ins" value="">
+            <input type="number" placeholder="Ingrese precio del producto" class="form-control" name="precio_lib" value="">
         </div>
         <div class="col-md-4">
             <label for="">Cantidad:</label>
             <br>
-            <input type="number" placeholder="Ingrese la cantidad del articulo que posee" class="form-control" name="nombres_ins" value="">
+            <input type="number" placeholder="Ingrese la cantidad del articulo que posee" class="form-control" name="cantidad_lib" value="">
         </div>
         
         <div class="col-md-12">
             <label for="">Descripción:</label>
             <br>
-            <input type="text" placeholder="Describir brevemente el articulo" class="form-control" name="direccion_ins" value="">
+            <input type="text" placeholder="Describir brevemente el articulo" class="form-control" name="descripcion_lib" value="">
         </div>
     </div>
     <br>
@@ -41,6 +41,6 @@
             GUARDAR
         </button>
         &nbsp;
-        <a href="<?php echo site_url();?>" class="btn btn-danger">CANCELAR</a>
+        <a href="<?php echo site_url();?>/articulos/escolares" class="btn btn-danger">CANCELAR</a>
     </div>
 </form>
