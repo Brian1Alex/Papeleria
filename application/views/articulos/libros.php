@@ -1,5 +1,5 @@
 <hr>
-<h1 Align="center">LISTADO DE ARTICULOS LIBROS</h1>
+<h1 Align="center">LISTADO DE LIBROS DISPONIBLES</h1>
 <hr>
 <br>
 <?php if ($articulos) : ?>
@@ -33,10 +33,11 @@
                         <?php echo $filaTemporal->descripcion_lib; ?>
                     </td>
 
-                    <td class="text-center">
-                        <a href="#" title="Editar Instructor"><i class="glyphicon  glyphicon-pencil"></i>
+                    <td class="text-center" Alig="center">
+                        <a href="#" title="Editar Libro"><i class="glyphicon  glyphicon-pencil"></i>
                         </a>
-                        <a href="<?php echo site_url(); ?>/Articulos/eliminarLib/<?php echo $filaTemporal->id_lib;?>" title="Eliminar Instructor" style="color:red;">
+                        &nbsp;&nbsp;
+                        <a href="<?php echo site_url(); ?>/Articulos/eliminarLib/<?php echo $filaTemporal->id_lib;?>" title="Eliminar Libro" style="color:red;">
                             <i class="glyphicon  glyphicon-trash"></i>
                         </a>
 
@@ -48,5 +49,5 @@
         </tbody>
     </table>
 <?php else : ?>
-    <h1>No posee Instructores</h1>
+    <h1>No posee Libros</h1>
 <?php endif; ?>

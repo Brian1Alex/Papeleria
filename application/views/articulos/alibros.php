@@ -41,6 +41,6 @@
             GUARDAR
         </button>
         &nbsp;
-        <a href="<?php echo site_url();?>/articulos/escolares" class="btn btn-danger">CANCELAR</a>
+        <a href="<?php echo site_url();?>/articulos/libros" class="btn btn-danger">CANCELAR</a>
     </div>
 </form>

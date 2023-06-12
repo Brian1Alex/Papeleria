@@ -4,7 +4,7 @@ class Articulos extends CI_Controller
     function __construct()
     {
         parent::__construct();
-        $this->load->model('Articulo');
+        $this->load->model('Articulo'); 
     }
 
     public function escolares()
@@ -104,7 +104,7 @@ class Articulos extends CI_Controller
 
     public function eliminarLib($id_lib)
     {
-        if ($this->Articulo->borrarTec($id_lib)) {
+        if ($this->Articulo->borrarLib($id_lib)) {
             redirect('Articulos/libros');
         } else {
             echo "ERROR AL BORRAR :( ";

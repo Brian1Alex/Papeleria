@@ -34,9 +34,9 @@
                     </td>
 
                     <td class="text-center">
-                        <a href="#" title="Editar Instructor"><i class="glyphicon  glyphicon-pencil"></i>
+                        <a href="#" title="Editar Articulo Escolar"><i class="glyphicon  glyphicon-pencil"></i>
                         </a>
-                        <a href="<?php echo site_url(); ?>/Articulos/eliminarEsc/<?php echo $filaTemporal->id_esc;?>" title="Eliminar Instructor" style="color:red;">
+                        <a href="<?php echo site_url(); ?>/Articulos/eliminarEsc/<?php echo $filaTemporal->id_esc;?>" title="Eliminar Articulo Escolar" style="color:red;">
                             <i class="glyphicon  glyphicon-trash"></i>
                         </a>
 
@@ -48,5 +48,5 @@
         </tbody>
     </table>
 <?php else : ?>
-    <h1>No posee Instructores</h1>
+    <h1>No posee Articulos Escolares</h1>
 <?php endif; ?>

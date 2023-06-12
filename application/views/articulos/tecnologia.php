@@ -1,5 +1,5 @@
 <hr>
-<h1 Align="center">LISTADO DE ARTICULOS ESCOLARES</h1>
+<h1 Align="center">LISTADO DE ARTICULOS TECNOLOGICOS</h1>
 <hr>
 <br>
 <?php if ($articulos) : ?>
@@ -34,9 +34,9 @@
                     </td>
 
                     <td class="text-center">
-                        <a href="#" title="Editar Instructor"><i class="glyphicon  glyphicon-pencil"></i>
+                        <a href="#" title="Editar Articulo Tecnológico"><i class="glyphicon  glyphicon-pencil"></i>
                         </a>
-                        <a href="<?php echo site_url(); ?>/Articulos/eliminarTec/<?php echo $filaTemporal->id_tec;?>" title="Eliminar Instructor" style="color:red;">
+                        <a href="<?php echo site_url(); ?>/Articulos/eliminarTec/<?php echo $filaTemporal->id_tec;?>" title="Eliminar Articulo Tecnologico" style="color:red;">
                             <i class="glyphicon  glyphicon-trash"></i>
                         </a>
 
@@ -48,5 +48,5 @@
         </tbody>
     </table>
 <?php else : ?>
-    <h1>No posee Instructores</h1>
+    <h1>No posee Articulos Tecnologicos</h1>
 <?php endif; ?>
